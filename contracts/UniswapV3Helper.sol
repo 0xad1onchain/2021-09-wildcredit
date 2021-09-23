@@ -3,17 +3,17 @@
 pragma solidity 0.7.5;
 pragma abicoder v2;
 
-import 'uniswap/uniswap-v3-core@1.0.0/contracts/libraries/TickMath.sol';
-import 'uniswap/uniswap-v3-core@1.0.0/contracts/libraries/FixedPoint128.sol';
-import 'uniswap/uniswap-v3-core@1.0.0/contracts/libraries/FullMath.sol';
-import 'uniswap/uniswap-v3-core@1.0.0/contracts/libraries/SqrtPriceMath.sol';
+import '@uniswap/v3-core/contracts/libraries/TickMath.sol';
+import '@uniswap/v3-core/contracts/libraries/FixedPoint128.sol';
+import '@uniswap/v3-core/contracts/libraries/FullMath.sol';
+import '@uniswap/v3-core/contracts/libraries/SqrtPriceMath.sol';
 
 import './external/PositionKey.sol';
 import './external/PoolAddress.sol';
 import './external/SafeERC20.sol';
 import './external/ERC721Receivable.sol';
 
-import 'uniswap/uniswap-v3-core@1.0.0/contracts/interfaces/IUniswapV3Pool.sol';
+import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
 
 import './interfaces/IERC20.sol';
 import './interfaces/univ3/INonfungiblePositionManager.sol';
